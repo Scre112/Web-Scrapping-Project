@@ -31,8 +31,8 @@ imported_word = os.getenv("WORD")
 
 # Main function
 def main():
-    pickup_locations = ["Parque Arauco"]
-    dropoff_locations = ["Metro Tobalaba"]
+    pickup_locations = [" "]
+    dropoff_locations = [" "]
     results = scrape_prices(pickup_locations, dropoff_locations)
     save_to_csv(results)
 
